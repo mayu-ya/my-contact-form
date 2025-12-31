@@ -1,0 +1,9 @@
+.header {
+    background: black;
+    height: 100%;
+}
+
+.header-logo{
+    color: white;
+    cursor: pointer;
+}

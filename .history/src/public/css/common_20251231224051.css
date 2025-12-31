@@ -1,0 +1,11 @@
+.header {
+    background: black;
+    height: 60px;
+}
+
+.header-logo{
+    color: white;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.content {
+    max-width: 1230px;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-button {
+}
+
+.form-button_create {
+    color: white;
+    background: black;
+}
