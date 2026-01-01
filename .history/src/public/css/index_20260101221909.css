@@ -1,0 +1,50 @@
+.content {
+    max-width: 1230px;
+}
+
+.form-title-con {
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form_create input,
+.form-text_create textarea {
+  padding: 10px;
+  width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+
+  appearance: none;
+}
+
+.form_create input {
+    height: 40px;
+}
+
+.form-text_create textarea {
+    height: 150px;
+}
+
+.form-button {
+    text-align: center;
+    padding: 50px;
+}
+
+.form-button_create {
+    color: white;
+    background: black;
+    font-size: 15px;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+}

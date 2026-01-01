@@ -1,0 +1,28 @@
+.content {
+    max-width: 1230px;
+}
+
+.form-title-con {
+    text-align: center;
+}
+
+.form {
+    display: inline;
+}
+
+.form-content {
+    display: flex;
+    
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button_create {
+    color: white;
+    background: black;
+    font-size: 20px;
+    width: 200px;
+    height: 45px;
+}

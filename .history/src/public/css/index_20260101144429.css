@@ -1,0 +1,22 @@
+.content {
+    max-width: 1230px;
+}
+
+.form {
+    display: inline;
+}
+
+.form-content {
+    display: flex;
+    
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button_create {
+    color: white;
+    background: black;
+    background-size: 50px;
+}

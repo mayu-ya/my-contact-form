@@ -1,0 +1,26 @@
+.title {
+    text-align: center;
+}
+
+.table {
+
+    text-align: center;
+}
+
+.table-content {
+    background-color: #aaa;
+}
+
+.table-button {
+    text-align: center;
+    padding: 50px;
+}
+
+.table-button_submit {
+        color: white;
+    background: black;
+    font-size: 15px;
+    width: 200px;
+    height: 45px;
+    cursor: pointer;
+}
