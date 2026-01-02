@@ -1,19 +1,39 @@
 .title {
     text-align: center;
+    margin-bottom: 40px;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
 }
 
 .table {
     text-align: center;
+    width: 100%;
+}
+
+.table-title-header {
+    padding: 15px;
+    width: 20%;
+    border-bottom: 1px solid #ddd;
+    background-color: #eee;
+    font-weight: bold;
 }
 
 .table-content {
     background-color: #aaa;
 }
 
-.table-content {
+.table-content input {
     width: 100%;
     outline: none;
     border: none;
+}
+
+.table:last-child .table-title-header,
+.table:last-child .table-content {
+    border-bottom-width: 0;
 }
 
 .table-button {
@@ -22,7 +42,7 @@
 }
 
 .table-button_submit {
-        color: white;
+    color: white;
     background: black;
     font-size: 15px;
     width: 200px;

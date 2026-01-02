@@ -1,0 +1,19 @@
+.header {
+    background: black;
+}
+
+.header-title {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1230px;
+}
+
+.header-logo{
+    display: block;
+    color: white;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-left: 70px;
+    text-decoration: none;
+    cursor: pointer;
+}

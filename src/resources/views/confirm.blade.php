@@ -7,11 +7,13 @@
 @section('content')
 <div class="content">
     <h2 class="title">お問い合わせ内容確認</h2>
-    
+
+    <form class="form" action="/contacts" method="post">
+    @csrf
     <table class="table" border="1">
         <tr>
             <div class="table-title">
-                <th class="table-title-name">お名前</th>
+                <th class="table-title-header">お名前</th>
             </div>
             <div class="table-content">
                 <td class="table-content-name">
@@ -21,7 +23,7 @@
         </tr>
         <tr>
             <div class="table-title">
-                <th class="table-title-email">メールアドレス</th>
+                <th class="table-title-header">メールアドレス</th>
             </div>
             <div class="table-content">
                 <td class="table-content-email">
@@ -31,7 +33,7 @@
         </tr>
         <tr>
             <div class="table-title">
-                <th class="table-title-tel">電話番号</th>
+                <th class="table-title-header">電話番号</th>
             </div>
             <div class="table-content">
                 <td class="table-content-tel">
@@ -41,7 +43,7 @@
         </tr>
         <tr>
             <div class="table-title">
-                <th class="table-title-content">お問い合わせ内容</th>
+                <th class="table-title-header">お問い合わせ内容</th>
             </div>
             <div class="table-content">
                 <td class="table-content-content">
@@ -53,5 +55,6 @@
     <div class="table-button">
         <button class="table-button_submit" type="submit">送信</button>
     </div>
+    </form>
 </div>
 @endsection

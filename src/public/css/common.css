@@ -1,6 +1,10 @@
 .header {
     background: black;
-    height: 60px;
+}
+
+.header-title {
+    margin: 0 auto;
+    padding: 20px 15px;
     max-width: 1230px;
 }
 
